@@ -1,0 +1,13 @@
+.form-group {
+  input{
+    &.error {
+      border: 2px solid red;
+      &:focus {
+        border: 2px solid #ced4da;
+      }
+    }
+  }
+  .error-massage {
+    color: red;
+  }
+}
